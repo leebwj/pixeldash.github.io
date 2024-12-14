@@ -1,8 +1,9 @@
 # Pixel Dash
 
-<img width="1440" alt="pixelrun" src="https://github.com/user-attachments/assets/e4467558-e24e-4db1-bb00-f3f0f414e5e4" />
-
 Pixel Dash is a single-player game designed with two distinct modes: Pixel Fly and Pixel Run. Players navigate the game world, collecting coins, unlocking new skins, dodging obstacles, and competing for high scores. The Game features a persistent data system, dynamic gameplay elements, and user-friendly GUIs. Program is developed in Java using Swing for GUI, and incorporates robust file management for player progress and leaderboards. Its modular structure allows for easy extension and feature additions.
+
+
+<img width="1440" alt="pixelrun" src="https://github.com/user-attachments/assets/e4467558-e24e-4db1-bb00-f3f0f414e5e4" />
 
 ---
 
