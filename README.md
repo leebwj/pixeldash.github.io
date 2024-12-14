@@ -18,7 +18,7 @@ Pixel Dash is a single-player game designed with two distinct modes: Pixel Fly a
 4. [Features](#features)
 5. [Core Concepts](#core-concepts)
 6. [Class Overview](#class-overview)
-7. [Known Challenges](#known-challenges)
+7. [Challenges Faced](#challenges-faced)
 8. [Future Improvements](#future-improvements)
 9. [External Resources](#external-resources)
 
@@ -51,6 +51,10 @@ The primary goal of this project was to combine programming concepts learned thr
 
 ## How to Run the Game
 
+Opening Program File:
+https://github.com/user-attachments/assets/a891affe-17ea-4bec-8368-45bd8a0707ca
+
+
 1. Clone the repository from GitHub or download the source code:
     ```bash
     # Clone this repository
@@ -65,16 +69,27 @@ The primary goal of this project was to combine programming concepts learned thr
 4. Run the main file:
    - `main` in the package `org.cis1200.pixeldash`.
    - OR run the `pom.xml` file directly.
+  
+Running Code:
+https://github.com/user-attachments/assets/4645874f-400f-4c13-a0ff-bfda9338156f
+
 
 ---
 
 ## Game Modes
 
 ### Pixel Fly Mode
+
+https://github.com/user-attachments/assets/bd203974-34e0-4b07-b13e-918b7e5d2915
+
 - Navigate vertically and horizontally to dodge flying obstacles while collecting coins.
 - Difficulty increases as you progress with accelerating obstacle speeds.
 
+
 ### Pixel Run Mode
+
+https://github.com/user-attachments/assets/6b8206d4-bcd0-41f2-be35-fb63eda18324
+
 - Classic infinite runner mode.
 - Jump over ground obstacles and dodge flying rockets to collect coins.
 - Speed increases over time, challenging reflexes and strategy.
@@ -84,6 +99,10 @@ The primary goal of this project was to combine programming concepts learned thr
 ## Features
 
 1. **Skins and Customization**
+
+https://github.com/user-attachments/assets/582dcf0a-c9ab-45f0-aa36-ceba32df5703
+
+   
    - Players can unlock skins with coins and select their appearance in the game.
    - Skins include:
      - Default (free)
@@ -93,22 +112,38 @@ The primary goal of this project was to combine programming concepts learned thr
      - Black (100 coins)
      - Yellow (150 coins)
 
-2. **Leaderboard**
-   - Separate leaderboards for Pixel Fly and Pixel Run modes.
-   - Displays top 10 high scores for each mode.
 
-3. **Persistent Data**
+3. **Leaderboard and Instructions Page**
+
+https://github.com/user-attachments/assets/640a327a-209a-424c-b145-19ddb5040707
+
+
+   - Separate leaderboards for Pixel Fly and Pixel Run modes.
+   - Leaderboard: Displays top 10 high scores for each mode.
+   - Instructions: Give mode specific information in order to play the game.
+
+
+5. **Persistent Data**
+
+https://github.com/user-attachments/assets/828717a0-04d8-41c2-8515-cdad4923fea0
+
+
    - Saves and loads player progress, including coins, unlocked skins, and leaderboards.
    - Log in with the same username to load existing data from previous compilation.
 
-4. **Dynamic Object Management**
+
+7. **Dynamic Object Management**
    - Obstacles and coins spawn dynamically during gameplay.
    - Items are removed when they move off-screen to optimize performance.
 
-5. **Reset Game**
+
+8. **Reset Game**
+
+https://github.com/user-attachments/assets/5f70f0a4-911f-4f50-925e-f48d3be6c230
+
+
    - Allows resetting all game progress, including leaderboards, skins, and coins.
    - Delete all existing save files. 
-
 
 ---
 
