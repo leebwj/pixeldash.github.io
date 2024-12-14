@@ -1,0 +1,7 @@
+Default,true
+Green,false
+Purple,false
+Pink,false
+Black,false
+Yellow,false
+Selected Skin,Default
